@@ -1,0 +1,15 @@
+name: 'Write Property'
+description: 'Write property to .properties file'
+inputs:
+  path:
+    description: 'The path to properties file to write'
+    required: true
+  property:
+    description: 'The property you want to write'
+    required: true
+  value:
+    description: 'The value write to the property'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
