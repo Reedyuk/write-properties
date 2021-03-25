@@ -1,6 +1,6 @@
 {
   "name": "write-properties",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "write-properties allows you to write key values to your .properties file.",
   "main": "index.js",
   "scripts": {
