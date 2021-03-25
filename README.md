@@ -1,6 +1,6 @@
 # write-properties GitHub Action  
 
-write-properties allows you to write key values to your .properties file.
+write-properties allows you to write key values to your .properties file on *Any* github platform e.g. MacOS, Linux, Windows
 
 ## Integrating with GitHub actions
 
@@ -34,7 +34,7 @@ The value of the given property.
 
     - name: Write value from Properties-file
       id: write_property
-      uses: Reedyuk/write-properties@v1.0.0
+      uses: Reedyuk/write-properties@v1.0.1
       with:
         path: './src/main/resources/application.properties'
         property: 'the.key.of.the.property'

@@ -1,5 +1,9 @@
 name: 'Write Property'
 description: 'Write property to .properties file'
+author: Andrew Reed
+branding:
+  icon: 'edit'
+  color: 'blue'
 inputs:
   path:
     description: 'The path to properties file to write'
