@@ -15,5 +15,5 @@ inputs:
     description: 'The value write to the property'
     required: true
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
