@@ -14,6 +14,6 @@ jobs:
     - name: Generate user count JSON endpoint
       uses: cicirello/count-action-users@v1
       with:
-        action-list: owner/action-name 
+        action-list: Reedyuk/write-properties
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
