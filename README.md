@@ -1,4 +1,4 @@
-![Count of Action Users](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Reedyuk/write-properties/main/action-name.json)
+![Count of Action Users](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Reedyuk/write-properties/main/write-properties.json)
 # write-properties GitHub Action  
 
 write-properties allows you to write key values to your .properties file on *Any* github platform e.g. MacOS, Linux, Windows
