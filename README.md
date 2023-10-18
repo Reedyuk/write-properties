@@ -35,7 +35,7 @@ The value of the given property.
 
     - name: Write value from Properties-file
       id: write_property
-      uses: Reedyuk/write-properties@vlatest
+      uses: Reedyuk/write-properties@latest
       with:
         path: './src/main/resources/application.properties'
         property: 'the.key.of.the.property'
